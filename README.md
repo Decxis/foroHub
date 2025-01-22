@@ -1,4 +1,4 @@
-# Proyecto de Foro con Spring Boot y PostgreSQL
+# Proyecto de Foro con Spring Boot y MySql
 
 Este proyecto consiste en la creación de un sistema de foro que incluye autenticación y autorización mediante JWT (JSON Web Tokens). Utiliza Spring Boot como framework principal y MySql como base de datos.
 
@@ -10,12 +10,16 @@ Este proyecto consiste en la creación de un sistema de foro que incluye autenti
 - Respuestas HTTP con códigos de estado adecuados (e.g., 201 para creación exitosa, 200 para operaciones exitosas, 403 para accesos no autorizados).
 - Organización de tareas usando una metodología ágil con herramientas como Trello.
 
-## Requisitos
+## Tecnologías utilizadas ⚒️
 
-- Java 17.
-- Maven.
-- Mysql instalado y configurado.
-- Herramienta de prueba de APIs como Postman.
+- Java
+- Spring Boot
+- Spring Security
+- JWT (JSON Web Tokens)
+- JPA (Java Persistence API)
+- H2 Database (para desarrollo y pruebas)
+- Postman (para pruebas de API)
+- Swagger (para documentación de API)
 
 ## Instalación y Configuración
 
@@ -31,7 +35,7 @@ Este proyecto consiste en la creación de un sistema de foro que incluye autenti
 
 ### Autenticación
 - **POST /auth/login**
-  - Parámetros: `email`, `password`.
+  - Parámetros: `username`, `password`.
   - Respuesta: Devuelve un token JWT si las credenciales son válidas.
 
 ### Gestión de Tópicos
