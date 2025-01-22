@@ -21,7 +21,7 @@ Este proyecto consiste en la creación de un sistema de foro que incluye autenti
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/foro-springboot-jwt.git
+   https://github.com/Decxis/foroHub.git
    ```
 
 3. **Probar los endpoints**:
