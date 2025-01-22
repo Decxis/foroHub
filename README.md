@@ -45,12 +45,10 @@ Este proyecto consiste en la creación de un sistema de foro que incluye autenti
 
 - **POST /topics**
   - Crea un nuevo tópico.
-  - Parámetros: `title`, `content`.
   - Requiere un token JWT válido.
 
 - **PUT /topics/{id}**
   - Actualiza un tópico existente.
-  - Parámetros: `title`, `content`.
   - Requiere un token JWT válido.
 
 - **DELETE /topics/{id}**
