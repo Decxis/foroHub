@@ -57,9 +57,7 @@ Este proyecto consiste en la creación de un sistema de foro que incluye autenti
 
 - Al iniciar sesión, se genera un token JWT.
 - Incluye este token en la cabecera de las solicitudes protegidas:
-  ```http
-  Authorization: Bearer <tu_token>
-  ```
+
 
 ## Organización del Proyecto
 
